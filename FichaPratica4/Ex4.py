@@ -1,0 +1,3 @@
+#  Escreva um programa que indique se um número pedido ao utilizador é primo. (Chamamos de número primo um
+# número natural que só possui dois divisores: 1 e ele mesmo). (Por exemplo: 1, 2, 3, 5, 7, 11, 13, 17, 19, 23, etc…
+

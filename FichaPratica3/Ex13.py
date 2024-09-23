@@ -1,21 +1,22 @@
 # Escreva um programa que leia uma sequência de números inteiros do utilizador e determine se a sequência
 # está em ordem crescente
 
-count = 0
+count = 1
 contador = int(input("Quantos numeros desejam inserir: "))
-anterior = None
 crescente = True
+
+anterior = int(input("Introduza um numero: "))
 
 
 while count < contador:
-    for i in range (0,contador):
-        numero = int(input("Introduza um numero: "))
-        if numero < anterior:
-            crescente:False
-        else:
-            crescente:True
-            print("Crescente")
-        count += 1
+    atual = int(input("Introduza um numero: "))
+    count += 1
+    if atual <= anterior:
+        crescente:False
 
+    anterior = atual
 
-
+if crescente:
+    print("Crescente")
+else:
+    print("Nao crescente")
