@@ -63,8 +63,9 @@ def perfeito(num):
     for i in range(2, num):
 
 
+#Implantar resolucao para a função
 def triangular(num):
 
 
+# Implantar resolucao para a função
 def trocaNumero(num):
-
