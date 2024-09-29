@@ -10,4 +10,4 @@ Prática de atividades em Python
 * Estrutura de repetição
 * Condicionais (if, elif)
 * Funções
-  
+* Listas
