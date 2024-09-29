@@ -1,18 +1,17 @@
 # Escreva um programa que lê uma lista de tamanho 10 e verifica se os elementos estão em ordem crescente.
 
 numeros = [15,20,30,54,1,5,500,16,18,48]
-menor = numeros[0]
-maior = numeros[9]
+def verificarOrdem(numeros):
+    for i in range(len(numeros) - 1):
+        if numeros[i] > numeros[i + 1]: #compara o numero atual com o proximo, por isso o +1
+            return False
+    return True
 
-for i in numeros(0,9):
+# Verificando se a lista está em ordem crescente
+if verificarOrdem(numeros):
+    resultado = "A lista está em ordem crescente."
+else:
+    resultado = "A lista não está em ordem crescente."
 
-
-
-# for i in range(len(numeros)):
-#     if numeros[i] < menor:
-#         menor = numeros[i]
-#     elif numeros[i] > maior:
-#         maior = numeros[i]
-#
-# print(menor)
-# print(maior)
+print(numeros)
+print(resultado)

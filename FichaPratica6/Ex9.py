@@ -7,9 +7,14 @@ for i in range(1, 11):
     valores.append(input(f"Informe um valor {i}: "))
 
 pesquisa = input("Informe o numero para pesquisa: ")
-encontrado = 0
 
+def pesquisarNumero(valores):
 
-for i in range(len(valores)):
-    if valores[i] == pesquisa:
-        encontrado = i
+    for m in range(len(valores)):
+        if valores[m] == pesquisa:
+            return True
+
+if pesquisarNumero(valores):
+    print(f"{pesquisa} existe na lista!")
+else:
+    print(f"{pesquisa} não existe na lista!")

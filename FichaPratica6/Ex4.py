@@ -3,6 +3,13 @@
 
 numeros = [15,20,30,54,1,5,500,16,18,48]
 
-numeros.sort()
+def menorNumero(numeros):
+    menor = numeros[0]
+    for i in range(len(numeros)):
+        if numeros[i] < menor:
+            menor = numeros[i]
+    return menor
 
-print(f"O maior numero da lista é o {numeros[9]}")
+
+print("O menor número da lista é: ", menorNumero(numeros))
+

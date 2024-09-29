@@ -2,7 +2,6 @@
 # todos os seus dígitos
 
 
-
 def somatorio(num):
     for i in range(1,num):
         soma = num + i
