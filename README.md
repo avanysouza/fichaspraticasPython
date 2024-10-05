@@ -1,7 +1,7 @@
 # Fichas Práticas - Python
 
 ## Descrição
-Prática de atividades em Python
+Atividades em Python para prática do conteúdo apresentado pelo formador Vitor Santos na UFCD "Programação em Python".
 
 ## Habilidades Desenvolvidas
 
