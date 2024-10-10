@@ -1,11 +1,15 @@
 # Implemente uma função somatorio( ) que recebe um número inteiro como parâmetro e retorna o somatório de
 # todos os seus dígitos
 
+num = input("Digite um numero: ")
 
 def somatorio(num):
-    for i in range(1,num):
-        soma = num + i
-        print(soma)
+    soma = 0
+    for i in range (int(len(num))):
+        soma += int(num[i])
+    return soma
 
+total = somatorio(num)
 
-print(somatorio(22))
+print(total)
+
